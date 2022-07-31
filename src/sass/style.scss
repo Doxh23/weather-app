@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url('https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1317/2020/02/17224704/winter_indiana_thinkstockphotos-494002992.jpg');
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    #root{width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    .weather{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 500px;
+        height: 500px;
+        background-color:rgba(75, 0, 130, 0.6);
+        border-radius: 25px;
+        .city{
+            font-size: 60px;
+        }
+ 
+        input{
+            background-color:  rgb(128, 128, 128);
+            filter: opacity(0.4);
+        }
+        input, button{
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+        button{
+            border: none;
+        }
+        .city {
+            margin-bottom: 100px;
+        }
+        div{
+            margin: 15px 0;
+        }
+       
+    }
+}}

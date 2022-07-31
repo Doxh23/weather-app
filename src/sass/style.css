@@ -1,0 +1,90 @@
+* {
+  margin: 0%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1317/2020/02/17224704/winter_indiana_thinkstockphotos-494002992.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+body #root {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #root .weather {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(75, 0, 130, 0.6);
+  border-radius: 25px;
+}
+
+body #root .weather .city {
+  font-size: 60px;
+}
+
+body #root .weather input {
+  background-color: gray;
+  -webkit-filter: opacity(0.4);
+          filter: opacity(0.4);
+}
+
+body #root .weather input, body #root .weather button {
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+body #root .weather button {
+  border: none;
+}
+
+body #root .weather .city {
+  margin-bottom: 100px;
+}
+
+body #root .weather div {
+  margin: 15px 0;
+}
+/*# sourceMappingURL=style.css.map */
